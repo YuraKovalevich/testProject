@@ -135,7 +135,7 @@ body {
 }
 
 .header__language {
-    display: flex;
+    position: relative;
     align-items: center;
     border: 2px solid #9DADF2;
     padding: 16px;
@@ -144,8 +144,14 @@ body {
 }
 
 .header__image {
+    display: flex;
     width: 16px;
     height: 16px;
+}
+.language-dropdown{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 
@@ -184,6 +190,8 @@ body {
     border-radius: 24px;
     color: #FFFFFF;
 }
+
+
 
 @media (max-width: 1087px) {
     .header__container {
@@ -1058,6 +1066,7 @@ body {
     border-color: #2B264C;
     border-width: 2px;
 }
+
 
 .bg:hover {
     background-color: #82A2F4
